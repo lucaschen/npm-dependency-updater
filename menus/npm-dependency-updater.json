@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Update dependencies in current file",
+        "command": "npm-dependency-updater:update"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "npm-dependency-updater",
+          "submenu": [
+            {
+              "label": "Update in current file",
+              "command": "npm-dependency-updater:update"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
