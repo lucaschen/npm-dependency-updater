@@ -7,10 +7,7 @@
   "activationCommands": {
     "atom-workspace": "npm-dependency-updater:update"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/parkroolucas/npm-dependency-updater.git"
-  },
+  "repository": "git@github.com:parkroolucas/npm-dependency-updater.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
