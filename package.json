@@ -2,7 +2,7 @@
   "name": "npm-dependency-updater",
   "main": "./lib/npm-dependency-updater",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Automatically updates private GitHub-based npm dependencies.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "npm-dependency-updater:update"
